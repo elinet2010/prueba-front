@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 code {
@@ -39,5 +40,11 @@ code {
 
 .search {
   margin: 10% auto;
-  width: 100px;
+  width: 140px;
+}
+
+.title-home {
+  text-align: center;
+  color: #272b2e;
+  margin-top: 60px;
 }

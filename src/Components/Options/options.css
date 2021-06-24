@@ -1,14 +1,94 @@
+
 .nav-link.active {
-    border-color: transparent !important;
-    border-bottom: solid !important;
-    color: #008ACC !important;
+  border-color: transparent !important;
+  border-bottom: solid !important;
+  border-color: transparent transparent #008acc !important;
+  color: #272b2e !important;
+}
+
+.nav-item {
+  color: #989ea5 !important;
+  font-weight: 500;
 }
 
 .nav-link.active:hover {
-    border-color: transparent transparent #008ACC !important;
+  border-color: transparent transparent #008acc !important;
 }
 
 .nav-link:hover {
-    border-color: transparent !important;
-    color: #008ACC !important;
+  border-color: transparent !important;
+  color: #008acc !important;
+}
+
+.text-secundary {
+  color: #158ec7 !important;
+  font-weight: 500;
+  font-size: 18px;
+}
+.card:first-of-type {
+  margin-right: 30px;
+}
+
+.card-img-top {
+  width: 120px !important;
+  margin: auto;
+  display: flex;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card-footer {
+  text-align: center;
+  cursor: pointer;
+}
+
+.card-footer:hover {
+  text-align: center;
+  cursor: pointer;
+  background: #158ec7 !important;
+}
+
+.card-footer:hover .text-secundary {
+  color: white !important;
+}
+
+.card.disabled {
+  pointer-events: none;
+  border: 1px solid rgba(0, 0, 0, 0.125) !important;
+  opacity: 0.6;
+}
+
+.card.disabled .text-secundary {
+  color: #272b2e !important;
+}
+
+.container-card {
+  width: max-content;
+  margin: 50px 60px;
+  display: inline-flex;
+  justify-content: space-between;
+}
+.scroll {
+  overflow-x: scroll;
+  margin: 0px -30px;
+}
+.scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.alert-warning img {
+  margin-right: 30px;
+}
+
+.alert-warning::before {
+  content: '';
+  width: 1px;
+  height: 18px;
+  background: #bb8d08;
+  display: block;
+  position: absolute;
+  left: 54px;
+  top: 16px;
 }
