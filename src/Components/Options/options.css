@@ -1,0 +1,14 @@
+.nav-link.active {
+    border-color: transparent !important;
+    border-bottom: solid !important;
+    color: #008ACC !important;
+}
+
+.nav-link.active:hover {
+    border-color: transparent transparent #008ACC !important;
+}
+
+.nav-link:hover {
+    border-color: transparent !important;
+    color: #008ACC !important;
+}
